@@ -22,9 +22,9 @@ const db = {};
 db.sequelize = sequelize;
 
 db.User = User;
-db.KnowledgeBase = knowledge_base;
+db.KnowledgeBase = KnowledgeBase;
 db.Destination = Destination;
-db.DestinationImage = Destination_images;
+db.DestinationImage = DestinationImages;
 db.Category = Category;
 
 module.exports = db;
