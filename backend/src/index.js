@@ -98,7 +98,6 @@ const startServer = async () => {
     console.log("Tables synced");
 
     app.listen(3000, () => {
-      console.log("Server running on http://localhost:3000");
     });
   } catch (error) {
     console.error("Database connection failed:", error);
