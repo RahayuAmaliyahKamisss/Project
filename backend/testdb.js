@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const connection = mysql.createConnection({
-  host: process.env.DB_HOST || 'localhost',
+  host: process.env.DB_HOST || 'srv1864.hstgr.io',
   user: process.env.DB_USER || 'u743507397_GeoPark123',
   password: process.env.DB_PASSWORD || 'Geoooooooooooooooo12',
   database: process.env.DB_NAME || 'u743507397_GeoPark123',
